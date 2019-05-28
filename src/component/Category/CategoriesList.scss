@@ -1,0 +1,42 @@
+li a{
+    color:#3e77aa;
+    text-decoration: none;
+    &:hover{
+        color: #ff7878;
+        i.fas.fa-angle-right {
+          color:#ff7878;
+        }
+    }
+}
+ul{ 
+    width: 250px;
+    list-style: none
+}
+.end-category {
+    margin-left: 25px;
+}
+i.fas.fa-angle-right {
+    position: absolute;
+    right: 0;
+    color: #3e77aa;
+    line-height: 23px;
+}
+li {
+    width: 250px;
+    position: relative;
+}
+.menu-categories {
+    display: flex;
+}
+.sub-categories {
+    display: flex;
+}
+.container-category {
+    height: 165px;
+    position: relative;
+    top: 25px;
+}
+.sidebar {
+    float: left;
+    margin-bottom: 50px;
+}
